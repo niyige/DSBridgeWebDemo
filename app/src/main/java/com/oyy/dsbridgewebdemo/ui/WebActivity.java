@@ -64,7 +64,6 @@ public class WebActivity extends AppCompatActivity {
 
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setJavascriptInterface(new JsApiEntity(this));
-
         webView.getSettings().setSupportMultipleWindows(true);
         webView.getSettings().setDefaultTextEncodingName("UTF-8");
         webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
