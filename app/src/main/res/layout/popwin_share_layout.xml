@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_60"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/shareLayout"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/weChatTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="13dp"
+            android:drawableTop="@mipmap/icon_share_wechat"
+            android:gravity="center"
+            android:text="微信"
+            android:textColor="@color/gray_666666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/weChatCircleTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="13dp"
+            android:drawableTop="@mipmap/icon_share_wechatcircle"
+            android:gravity="center"
+            android:text="朋友圈"
+            android:textColor="@color/gray_666666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/qqTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="13dp"
+            android:drawableTop="@mipmap/icon_share_qq"
+            android:gravity="center"
+            android:text="QQ"
+            android:textColor="@color/gray_666666"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancleBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/btn_stroke"
+        android:text="取消"
+        android:textColor="@color/gray_666666"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
